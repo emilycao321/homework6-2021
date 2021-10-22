@@ -216,8 +216,8 @@ footer{
     animation: none;
   }
 }
-/* @media print {  */
-@media screen and (min-width: 1000px){
+@media print { 
+/* @media screen and (min-width: 1000px){ */
   .nav-links {
     justify-content: space-between;
     flex-direction: row;
