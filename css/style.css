@@ -205,6 +205,10 @@ footer{
   }
 }
 @media print { 
+
+  .nav-links {
+      justify-content: space-between;
+  }
   .body{
     background-image: none;
   }
