@@ -192,14 +192,16 @@ footer{
 
   .card > header {
     position: relative;
-}
+  }
+
+
 
   header{
     justify-content: space-between;
     flex-direction: row;
     position: fixed;
     width: 100%;
-    height: auto;
+    top: 0;
   }
 
  
