@@ -225,7 +225,7 @@ footer{
     flex-direction: row;
   }
   .body{
-    background-image: none;
+    background-image: none !important;;
   }
 
   .pricing{
