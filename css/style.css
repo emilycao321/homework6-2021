@@ -184,21 +184,21 @@ body{
         -webkit-transform: scaleY(1.1);
         transform: scaleY(1.1);
         z-index: -99;
-  }
-  header{
-    justify-content: space-between;
-    flex-direction: row;
-    /* position: fixed; */
-  }
+    }
+    header{
+      justify-content: space-between;
+      flex-direction: row;
+      /* position: fixed; */
+    }
 
-  .nav_links{
-    flex-direction: row;
-  }
+    .nav_links{
+      flex-direction: row;
+    }
 
-  .card {
-    flex-basis: 250px;
+    .card {
+      flex-basis: 250px;
+    }
   }
-
   @media (prefers-reduced-motion) {
     #logo {
       animation: none;
@@ -229,5 +229,3 @@ body{
       content: "\1F44D";
     }
   }
-}
-  
