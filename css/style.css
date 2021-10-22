@@ -185,12 +185,24 @@ footer{
       transform: scaleY(1.1);
       z-index: -99;
   }
+
+  .card {
+      z-index: -99;
+  }
+
+  .card > header {
+    position: relative;
+}
+
   header{
     justify-content: space-between;
     flex-direction: row;
-    /* position: fixed; */
+    position: fixed;
+    width: 100%;
+    height: auto;
   }
 
+ 
   .nav_links{
     flex-direction: row;
   }
@@ -204,8 +216,8 @@ footer{
     animation: none;
   }
 }
-@media print { 
-/* @media screen and (min-width: 1000px){ */
+/* @media print {  */
+@media screen and (min-width: 1000px){
   .nav-links {
     justify-content: space-between;
     flex-direction: row;
@@ -223,7 +235,7 @@ footer{
     border: solid 2px #45ADDD;
   }
 
-  .gallery{
+  #gallery, .gallery{
     display: none;
   }
   #skip li:nth-child(odd)::before{
