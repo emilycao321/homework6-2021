@@ -192,14 +192,12 @@ footer{
 
   .card > header {
     position: relative;
-  }
-
-
+  } 
 
   header{
     justify-content: space-between;
     flex-direction: row;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
   }
@@ -220,15 +218,21 @@ footer{
 }
 @media print { 
 /* @media screen and (min-width: 1000px){ */
-  .nav-links {
-    justify-content: space-between;
+  .nav_links {
     flex-direction: row;
+    justify-content: space-around;
   }
+
+  nav {
+    width: 100%
+  }
+
   body{
     background-image: none;
   }
 
   .pricing{
+    flex-direction: row;
     align-items: flex-end;
   }
 
