@@ -205,9 +205,10 @@ footer{
   }
 }
 @media print { 
-
+/* @media screen and (min-width: 1000px){ */
   .nav-links {
-      justify-content: space-between;
+    justify-content: space-between;
+    flex-direction: row;
   }
   .body{
     background-image: none;
