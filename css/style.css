@@ -221,6 +221,7 @@ footer{
   .nav_links {
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   nav {
@@ -232,6 +233,8 @@ footer{
   }
 
   .pricing{
+    display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: flex-end;
   }
