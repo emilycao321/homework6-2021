@@ -85,9 +85,9 @@ nav ul li a:visited {
 
   header{
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-content: flex-start;
     left: 0;
     right: 0;
@@ -101,15 +101,22 @@ nav ul li a:visited {
 
   .nav_links{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
   }
 
   .pricing {
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    flex-basis: 250px;
+    justify-content: center;
+    align-items: center;
   }
 
   .card {
+    display: flex;
     flex-basis: 250px;
     /* z-index: -99; */
   }
@@ -136,6 +143,7 @@ nav ul li a:visited {
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: flex-end;
+    justify-content: center;
   }
 
   .card {
